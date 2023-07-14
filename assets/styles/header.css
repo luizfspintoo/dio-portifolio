@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
 .header img {
     width: 17rem;
 }
@@ -36,5 +41,11 @@
 
     .header .title {
         text-align: left;
+    }
+
+    .skills-all {
+        display: flex;
+        justify-content: space-around;
+        gap: 4rem;
     }
 }

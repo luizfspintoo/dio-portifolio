@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/acordeon.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
     <link rel="stylesheet" href="assets/styles/global.css">
     <title>Portifólio Luiz Felipe</title>
 </head>
+
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img src="assets/images/image-profile.svg" alt="Imagem de perfil">
             <h1 class="title">Olá,<br> eu sou Luiz Felipe</h1>
@@ -27,19 +35,237 @@
                         São José do Rio Preto - SP
                     </li>
                     <li>
-                        <ion-icon name="call-outline"></ion-icon>
-                        (17) 99665-0669
+                        <a href="tel:017996650669">
+                            <ion-icon name="call-outline"></ion-icon>
+                            (17) 99665-0669
+                        </a>
                     </li>
                     <li>
-                        <ion-icon name="mail-outline"></ion-icon>
-                        luizfspintoo@gmail.com
+                        <a href="mailto: luizfspintoo@gmail.com">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            luizfspintoo@gmail.com
+                        </a>
                     </li>
                 </ul>
             </div>
         </header>
-    </div>
 
+        <section class="acordeon">
+            <button type="button" class="trigger-button">
+                Skills
+                <ion-icon class="arrow" style="font-size: 2.5rem;" name="chevron-up-outline"></ion-icon>
+            </button>
+
+
+
+            <div class="content">
+                <div class="skills-all">
+                    <section>
+                        <h3>Habilidades técnicas básicas:</h3>
+                        <ul>
+                            <li title="HTML5">
+                                <i style="font-size: 6rem;" class="devicon-html5-plain"></i>
+                            </li>
+                            <li title="CSS3">
+
+                                <i style="font-size: 6rem;" class="devicon-css3-plain"></i>
+
+                            </li>
+                            <li title="JavaScript">
+
+
+                                <i style="font-size: 6rem;" class="devicon-javascript-plain"></i>
+
+
+                            </li>
+                            <li title="Bootstrap">
+
+                                <i style="font-size: 6rem;" class="devicon-bootstrap-plain"></i>
+
+                            </li>
+                            <li title="C-sharp">
+
+                                <i style="font-size: 6rem;" class="devicon-csharp-plain"></i>
+
+                            </li>
+                            <li title="Sql Server">
+
+
+                                <i style="font-size: 6rem;" class="devicon-microsoftsqlserver-plain"></i>
+
+
+                            </li>
+                          
+                            <li title="WordPress">
+
+                                <i style="font-size: 6rem;" class="devicon-wordpress-plain"></i>
+
+                            </li>
+                            <li title=".NET core">
+
+                                <i style="font-size: 6rem;" class="devicon-dotnetcore-plain"></i>
+
+                            </li>
+                            <li title="MySql">
+
+                                <i style="font-size: 6rem;" class="devicon-mysql-plain"></i>
+                            </li>
+                            <li title="Visual Studio">
+                                <i style="font-size: 6rem;" class="devicon-visualstudio-plain"></i>
+                              
+                            </li>
+                            <li title="Visual Studio Code">
+                                <i style="font-size: 6rem;" class="devicon-vscode-plain"></i>
+                              
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Habiidades pessoais:</h3>
+                        <ul class="skills">
+                            <li>
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                Trabalho em equipe
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                Resolução de problemas
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                Comunicação assertiva
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                Capacidade de extrair conhecimento
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button type="button" class="trigger-button">
+                Idiomas
+                <ion-icon class="arrow" style="font-size: 2.5rem;" name="chevron-up-outline"></ion-icon>
+            </button>
+            <div class="content">
+                <ul class="languages">
+                    <li>
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        Português
+                    </li>
+                    <li>
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        Inglês
+                    </li>
+                    <li>
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        Espanhol
+                    </li>
+                    <li>
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        Italiano
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button type="button" class="trigger-button">
+                Educação
+                <ion-icon class="arrow" style="font-size: 2.5rem;" name="chevron-up-outline"></ion-icon>
+            </button>
+            <div class="content">
+                <ul class="education">
+                    <li>
+                        <ion-icon name="laptop-outline"></ion-icon>
+                        Português
+                    </li>
+                    <li>
+                        <ion-icon name="laptop-outline"></ion-icon>
+                        Inglês
+                    </li>
+                    <li>
+                        <ion-icon name="laptop-outline"></ion-icon>
+                        Espanhol
+                    </li>
+                    <li>
+                        <ion-icon name="laptop-outline"></ion-icon>
+                        Italiano
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button type="button" class="trigger-button">
+                Projetos
+                <ion-icon class="arrow" style="font-size: 2.5rem;" name="chevron-up-outline"></ion-icon>
+            </button>
+            <div class="content">
+                <ul class="projects">
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-github"></ion-icon>
+                            Criando um app de Lembrete
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-github"></ion-icon>
+                            Criando uma Landing Page de Dentista
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-github"></ion-icon>
+                            Criando um app de Frete Connect
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-github"></ion-icon>
+                            Italiano
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button type="button" class="trigger-button">
+                Experiência profissional
+                <ion-icon class="arrow" style="font-size: 2.5rem;" name="chevron-up-outline"></ion-icon>
+            </button>
+            <div class="content">
+                <ul class="expirence">
+                    <li>
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        Português
+                    </li>
+                    <li>
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        Inglês
+                    </li>
+                    <li>
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        Espanhol
+                    </li>
+                    <li>
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        Italiano
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/scripts/main.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

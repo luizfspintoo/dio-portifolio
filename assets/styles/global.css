@@ -30,3 +30,8 @@ body {
     width: 80%;
     max-width: 900px;
 }
+
+ion-icon {
+    font-size: 1.7rem;
+} 
+
