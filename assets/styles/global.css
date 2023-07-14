@@ -1,0 +1,32 @@
+/*styles and configurations globals*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    font-size: 62.5%; 
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('../fonts/neue-machina-regular.otf');
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+.main  {
+    padding: 1.6rem;
+    margin: 1.6rem auto;
+    border: 2px solid #ebebebea;
+    border-radius: 1.0rem;
+    background-image: linear-gradient( rgb(22, 20, 24) , rgb(68, 4, 94));
+    width: 80%;
+    max-width: 900px;
+}

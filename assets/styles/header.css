@@ -1,0 +1,40 @@
+/*styles header*/
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img {
+    width: 17rem;
+}
+
+.header .title {
+    text-align: center;
+    font-family: 'Neue Machina';
+}
+
+.informations > ul {
+    list-style: none;
+}
+
+.informations ul li {
+    margin: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.6rem;
+}
+
+/*header desktop*/
+@media (min-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .header .title {
+        text-align: left;
+    }
+}
