@@ -1,7 +1,7 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center">Portfólio</h1>
 
 <p align="center">
-Desafio de projeto, desenvolvido na DIO. Construção de portifólio.<br/>
+Desafio de projeto, desenvolvido na Digital Innovation One. Construção de portifólio.<br/>
 
 <br>
 
@@ -21,5 +21,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Desafio de projeto, desenvolvido na DIO. Construção de portifólio.
-
+Desafio de projeto, desenvolvido na Digital Innovation One. Construção de portifólio.
